@@ -77,7 +77,7 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
 
 # Function to analyze faucet data and generate summary/graph
 # Function to analyze faucet data and generate summary/graph
-def analyze_faucet_data(file_path=r"C:\Users\caden\Desktop\118i_Project\faucet_usage_data.csv"):
+def analyze_faucet_data(file_path = "faucet_usage_data.csv"):
     try:
         # Load and process data
         df = pd.read_csv(file_path)
